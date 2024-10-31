@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYLIST</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('fondo atardecer 2.jpg') no-repeat center center fixed; /* Cambia esta URL por la de tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+            margin: 0;
+            padding: 20px;
+            color: #ecf0f1; /* Color de texto claro */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(70, 83, 128, 0.089); /* Fondo semitransparente oscuro */
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+        .link {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            color: #000000; /* Texto claro en botones */
+            background-color: #b5bec433; /* Botón azul oscuro */
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 1.3em;
+            transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            position: relative;
+            z-index: 2;
+        }
+        .link:hover {
+            background-color: #ffffff48; /* Color de botón al pasar el ratón */
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+        }
+        footer {
+            margin-top: 30px;
+            color: #fcfcfc70; /* Color de texto en el pie de página */
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+      <h1 style="color: rgb(0, 8, 10);">LISTA DE CANCIONES</h1>
+        <a href="https://www.youtube.com/watch?v=JVpTp8IHdEg" class="link">Hear Me Now</a>
+        <a href="https://www.youtube.com/watch?v=isVzVPpx3zc" class="link">Barcelona</a>
+        <a href="https://www.youtube.com/watch?v=R-YSFJoQvwA" class="link">Welcome to walkerworld</a>
+        <a href="https://www.youtube.com/watch?v=_BFgzaqyd8w" class="link">Endless sumer</a>
+        <a href="https://www.youtube.com/watch?v=KUjuvLTZjxo" class="link">Land Of The Heroes</a>
+        <a href="https://open.spotify.com/playlist/7j214frWnYXzWTeFWEHsJL?pi=3gRHEfyMQQSI5" class="link">Playlist spotify</a> 
+    </div>
+
+    <footer>
+        © 2024 Mi Página de Enlaces
+    </footer>
+
+</body>
+</html>
